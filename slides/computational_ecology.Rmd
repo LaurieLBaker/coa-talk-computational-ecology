@@ -221,7 +221,7 @@ My work occurs at the intersection of Human Ecology, Math and Statistics, and Co
 .pull-right[
 ## Topics
 ### `r icons::fontawesome("fish")`  **Ecology**
-### `r icons::fontawesome("desktop")` **Spatial Statistics**
+### `r icons::fontawesome("globe")` **Spatial Statistics**
 ### `r icons::fontawesome("satellite")` **Novel Data Sources**
 
 ]
@@ -245,7 +245,7 @@ I used catch composition and machine learning to infer a fisher's target species
 ## Topics
 
 ### `r icons::fontawesome("fish")`  **Ecology**
-### `r icons::fontawesome("desktop")` **Spatial Statistics**
+### `r icons::fontawesome("globe")` **Spatial Statistics**
 ### `r icons::fontawesome("satellite")` **Novel Data Sources**
 ]
 
@@ -268,13 +268,13 @@ I used catch composition and machine learning to infer a fisher's target species
 .pull-right[
 ## Topics
 
-### `r icons::fontawesome("desktop")` **Spatial Statistics**
+### `r icons::fontawesome("globe")` **Spatial Statistics**
 ### `r icons::fontawesome("satellite")` **Novel Data Sources**
 ### `r icons::fontawesome("desktop")` **Open-source education resources**
 
 ]
 
-### `r icons::fontawesome("lightbulb")` Aim: to equip communities with the data science tools to address local issues
+### `r icons::fontawesome("lightbulb")` Aim: to equip communities with the data science tools to address issues of local or ecocultural importance
 
 ---
 # Designing accessible programming lessons
@@ -311,7 +311,7 @@ I used catch composition and machine learning to infer a fisher's target species
 
 ### `r icons::fontawesome("fish")`  **Ecology**
 ### `r icons::fontawesome("syringe")`  **Public Health**
-### `r icons::fontawesome("desktop")` **Spatial Statistics**
+### `r icons::fontawesome("globe")` **Spatial Statistics**
 
 ]
 
@@ -342,8 +342,6 @@ knitr::include_graphics("images/small_pox_rinderpest.PNG")
 ???
 - Only two infectious diseases have been eliminated worldwide: small pox and rinderpest.
 
-- Mass vaccination can greatly reduce the burden of vaccine-preventable diseases. 
-
 - However, it is unclear how long vaccination programs must operate to eliminate infection. 
 
 - In this talk I am going to explore two different vaccination strategies applied to fox rabies
@@ -353,13 +351,13 @@ knitr::include_graphics("images/small_pox_rinderpest.PNG")
 
 ### - How long control programs must run is unclear.
 
-```{r, echo=FALSE, out.width=1090, fig.align='center', fig.cap="The stages of elimination"}
+```{r, echo=FALSE, out.width=900, fig.align='center', fig.cap="The stages of elimination. Blue solid line showing number of cases. Dotted blue line showing the number of detected rabies cases. Shaded gray regions showing the level of control."}
 
 knitr::include_graphics("images/elimination_phases_klepac.PNG")
 
 ```
 
-.foot_note[
+.footnote[
 Stages toward and after elimination in a given location and milestones on the path to elimination. Shading illustrates control intensity (darker grey for heightened efforts). *Klepac et al. 2013. Towards the endgame and beyond. Phil Trans B.* ]
 
 ???
@@ -386,7 +384,7 @@ knitr::include_graphics("images/fox_rabies_timeline.png")
 ---
 # Vaccine Deployment
 .left-column[
-```{r, echo=FALSE, out.height=490, out.width = 500, fig.align='center', fig.cap="Animation showing rabies cases and the historical distribution of vaccines. Image credit: Friedrich Loeffler Institute"}
+```{r, echo=FALSE, out.height=450, out.width = 450, fig.align='center', fig.cap="Snapshot showing rabies cases (red dots) and the historical distribution of vaccines (blue polygons)."}
 knitr::include_graphics("images/rabies_cases_vaccinations_snapshot.PNG")
 ```
 
@@ -465,7 +463,7 @@ class: middle
 ### `r icons::icon_style(icons::fontawesome("shield-virus"), scale = 2)` Vaccination: vaccination events (where and when)
 --
 
-* Ask me more!
+.footnote[This part took 2 years! Ask me more!]
 
 ???
 Births `r icons::icon_style(icons::fontawesome("arrow-up"), scale = 2)`
@@ -479,9 +477,6 @@ Migrating infectious individuals
  
 Infected individuals:
 `r icons::icon_style(icons::fontawesome("arrow-up"), scale = 2)` Migrating infected foxes
- 
-### This part took 2.5 years! Ask me at the end of the talk or during the visit for more details.
-
  
 ---
 ## 2. Explore vaccination planning for different rabies scenarios
@@ -625,7 +620,7 @@ knitr::include_graphics("images/endemic_rabies.jpg")
 
 ```
 
-#### `r icons::icon_style(icons::fontawesome("clock"), scale = 2)` Coordinated and consecutive campaigns and autumn campaigns (after birth-pulse) = greatest reductions
+### `r icons::icon_style(icons::fontawesome("clock"), scale = 2)` Autumn campaigns (after birth-pulse) = greatest reductions
 
 
 ]
@@ -938,7 +933,7 @@ knitr::include_graphics("images/heron_monitoring.jpg")
 
 ---
 class: middle, center
-# Conclusion
+# Take home
 
 
 `r icons::icon_style(icons::fontawesome("paint-brush", style = "solid"), scale = 2)` 
@@ -1041,7 +1036,7 @@ knitr::include_graphics("images/rabies_spread.png")
 
 .left-column[
 
-```{r, echo=FALSE, out.width=750, fig.align='center', fig.cap="Time to elimination for different scenarios where campaigns were missed."}
+```{r, echo=FALSE, out.width=700, fig.align='center', fig.cap="Time to elimination for different scenarios where campaigns were missed."}
 
 knitr::include_graphics("images/rabies_presence.jpg")
 
@@ -1060,12 +1055,11 @@ knitr::include_graphics("images/rabies_presence.jpg")
 
 `r icons::icon_style(icons::fontawesome("money-bill-alt"), scale = 2)`
 
-
-### Same or more effort required to achieve elimination
+### Require more effort
 
 `r icons::icon_style(icons::fontawesome("baby"), scale = 2)`
 
-### Consecutive and autumn campaigns most important
+### Consecutive and autumn campaigns greatest setbacks
 
 ]
 ]
@@ -1194,7 +1188,7 @@ Some additional slides on impact of missing campaigns.
 ]
 
 ---
-# Curriculum at College of the Atlantic
+# Computer Science Curriculum
 
 .left-column[
 ## Contextual Knowledge
