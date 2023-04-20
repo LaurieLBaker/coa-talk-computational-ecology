@@ -1,5 +1,5 @@
 ---
-title: "Rethinking the ways we use and gather data"
+title: "Thinking creatively about how we use and gather data"
 subtitle: "MDIBL Data Science Panel"  
 author: "Dr. Laurie Baker"
 institute: "@llbaker1707"
@@ -51,16 +51,17 @@ xaringanExtra::style_share_again(share_buttons = c("twitter", "linkedin", "pocke
 
 
 
-background-image: 
-background-position: top right
+background-image: url(images/tidydata_5.jpg)
+background-position: bottom right
 background-size: contain
-class: middle, left
+class: left
 
-# `r rmarkdown::metadata$title`
+.center[
+## **`r rmarkdown::metadata$title`**
 
-## `r rmarkdown::metadata$author`
+### `r rmarkdown::metadata$subtitle`,  `r rmarkdown::metadata$date`
+]
 
-### `r rmarkdown::metadata$date`
 
 ---
 class: middle, left
@@ -351,7 +352,23 @@ RSpatial Data
 ]
 
 .pull-right[
-### **Afrimapr** Interactive tutorials on working with spatial data in R
+### **Afrimapr** interactive tutorials on working with spatial data in R
+]
+
+
+---
+# Community-engaged Data Science
+
+.pull-left[
+
+.center[
+<iframe src="https://community-engaged-data-science.netlify.app/" width="700" height="416" frameBorder="0"></iframe>
+
+]
+]
+
+.pull-right[
+### Teaching applied problem-solving
 ]
 
 
