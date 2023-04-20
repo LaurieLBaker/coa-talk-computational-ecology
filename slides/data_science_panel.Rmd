@@ -381,6 +381,8 @@ Slides created via the R package [**xaringan**](https://github.com/yihui/xaringa
 The chakra comes from [remark.js](https://remarkjs.com), [**knitr**](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com).
 ]
 
+Artwork by @AllisonHorst
+
 
 **Dalhousie University**: 
 
