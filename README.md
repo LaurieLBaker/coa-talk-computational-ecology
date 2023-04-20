@@ -4,3 +4,6 @@ Link to the [Github Pages website](https://laurielbaker.github.io/coa-talk-compu
 
 [Slides for Talk](slides/computational_ecology.html)
 
+[Slides for MDIBL Talk](slides/data_science_panel.html)
+
+
