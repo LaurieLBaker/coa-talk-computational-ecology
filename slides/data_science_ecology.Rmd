@@ -126,10 +126,13 @@ class: middle, left, inverse
 ---
 # Outline
 
-### 1. Introduce you to some of my past and current research
+### 1. Introduce you to some of the problems I find interesting.
 
 --
-### 2. Explore the intersection of epidemiology and data science in a case study: Fox rabies elimination in Western Europe
+### 2. Explore the intersection of epidemiology and statistics in a case study: Fox rabies elimination in Western Europe
+
+--
+### 3. Take questions
 
 ---
 class: middle, left
@@ -277,13 +280,13 @@ I used catch composition and machine learning to infer a fisher's target species
 ---
 # Designing accessible programming lessons
 
-.left-column[
+.pull-left[
 
-<iframe src="https://laurielbaker.github.io/lab-accessible-data-viz/guide/lab-accessibility.html" width="516" height="516" frameBorder="0"></iframe>
+<iframe src="https://laurielbaker.github.io/lab-accessible-data-viz/guide/lab-accessibility.html" width="516" height="416" frameBorder="0"></iframe>
 
 ]
 
-.right-column[
+.pull-right[
 
 ## Topics
 ### `r icons::fontawesome("universal-access")`  **Accessibility**
@@ -293,12 +296,14 @@ I used catch composition and machine learning to infer a fisher's target species
 
 ]
 
+### `r icons::fontawesome("lightbulb")` Open-source teaching materials on how to create accessible data visualizations in R
+
 ???
 
 ---
 # Mapping Ocean Stories
 
-.left-column[
+.pull-left[
 
 .center[
 <img style="border-radius: 5%;" src="images/coastal_map.png" width="600px"/>
@@ -308,7 +313,7 @@ Listen to the archives on [Maine Sound and Story](https://mainesoundandstory.com
 
 ]
 
-.right-column[
+.pull-right[
 ## Topics
 ### `r icons::fontawesome("fish")`  **Ecology**
 ### `r icons::fontawesome("globe")` **Spatial Statistics**
@@ -316,23 +321,27 @@ Listen to the archives on [Maine Sound and Story](https://mainesoundandstory.com
 
 ]
 
+### `r icons::fontawesome("lightbulb")` Understanding the past and present use of Frenchman and Penobscot Bays
+
 ???
 
 ---
-# Supporting river herring and shad co-management in Maine
+# Shad and River Herring Data Portal
 
-.left-column[
+.pull-left[
 
-<iframe src="https://laurie-the-student-baker.shinyapps.io/shad-river-herring/" width="516" height="516" frameBorder="0"></iframe>
+<iframe src="https://laurie-the-student-baker.shinyapps.io/shad-river-herring/" width="516" height="416" frameBorder="0"></iframe>
 
 ]
 
-.right-column[
+.pull-right[
 ## Topics
 ### `r icons::fontawesome("fish")`  **Ecology**
 ### `r icons::fontawesome("desktop")` **Data Visualization**
 
 ]
+
+### `r icons::fontawesome("lightbulb")` Supporting river herring and shad stewardship and co-management in Maine through interactive data platform
 
 ???
 
@@ -368,7 +377,7 @@ The first example is an example of wildlife vaccination planning.
 ---
 # Background
 
-#### - Only two diseases have been eliminated worldwide: small pox and rinderpest.
+### Only two diseases eliminated worldwide: small pox and rinderpest.
 
 ```{r, echo=FALSE, out.width=1050, fig.align='center', fig.alt="Two pictures: one of patient's leg with small pox and the other of cattle that have died from rinderpest"}
 
@@ -376,7 +385,8 @@ knitr::include_graphics("images/small_pox_rinderpest.PNG")
 
 ```
 
-#### - Mass vaccination can reduce the burden of diseases. Spatial planning of vaccination campaigns requires understanding of local transmission dynamics. 
+### - Mass vaccination can reduce the burden of diseases, however, it is unclear how long vaccination programs must operate.
+
 
 ???
 - Only two infectious diseases have been eliminated worldwide: small pox and rinderpest.
@@ -387,8 +397,7 @@ knitr::include_graphics("images/small_pox_rinderpest.PNG")
 
 ---
 # Rabies
-#### Rabies is a deadly disease that kills over 59,000 people each year.
-#### An RNA virus that causes encephalitis in a large range of mammals.
+### Rabies is an RNA virus that causes encephalitis in a large range of mammals and kills over 59,000 people each year.
 
 ```{r, echo=FALSE, out.width=600, fig.align='center', fig.alt="Map of the world with main rabies animal hosts pictured."}
 
@@ -414,9 +423,8 @@ knitr::include_graphics("images/fox_rabies_timeline.png")
 
 ```
 
-- Rabies is spread locally through the bite of an infected animal. 
-- Using the gps locations of rabid foxes we can understand the spatial spread of the disease.
-
+### Rabies is spread locally through the bite of an infected animal. 
+### Individuals pass from Susceptible (S) to Infected (I).
 
 ---
 # Spread of rabies in foxes
@@ -437,50 +445,15 @@ knitr::include_graphics("images/rabies_spread.png")
 
 ]
 
-* **1940s:** Spillover from dogs to foxes
+### **1940s:** Spillover from dogs to foxes
 
 --
 
-* **1950s-1970s:** Rapid spread throughout Europe
+### **1950s-1970s:** Rapid spread throughout Europe
 
 --
 
-* **Late 1970s:** Veterinarians facing major health crisis
-
---
-
-`r icons::fontawesome("pizza-slice")` Lunch Warning: Next Slide
-
----
-# Vaccine Deployment
-
-.left-column[
-
-```{r, echo=FALSE, out.width=400, fig.align='center', fig.cap="Image 1. Fixed wing aircraft used to distribute vaccines."}
-
-knitr::include_graphics("images/fixed_wing_hungary.jpg")
-
-
-```
-
-`r icons::fontawesome("newspaper")` Read more in *The Atlantic* article by Ed Yong ["That Time Europe Air-dropped Vaccine-loaded Chicken Heads to Bait Rabid Foxes"](https://www.theatlantic.com/science/archive/2015/12/that-time-europe-air-dropped-vaccine-loaded-chicken-heads-to-bait-rabid-foxes/417951/) 
-
-.footnote[Images: Friedrich Loeffler Institut]
-]
-
-.right-column[
-
-```{r, echo=FALSE, out.width=520, fig.align='center', fig.cap="Image 2. Vaccine-loaded chicken heads."}
-
-knitr::include_graphics("images/chicken_head.jpg")
-
-
-```
-
-]
-
-`r icons::fontawesome("syringe")` At least they didn't go with the spring-loaded needle traps!
-
+### **Late 1970s:** Veterinarians facing major health crisis
 
 ---
 # Vaccine Deployment
@@ -519,7 +492,7 @@ class: middle
 .center[
 ### `r icons::icon_style(icons::fontawesome("viruses"), scale = 2)`
 
-## 1. Capture rabies spread and control and estimate key epidemiological parameters
+## 1. Capture rabies spread and control
 
 ### `r icons::icon_style(icons::fontawesome("globe"), scale = 2)`
 
@@ -528,24 +501,7 @@ class: middle
 
 ]
 ---
-# 1: Fit a model to data to capture rabies dynamics
-
-### `r icons::icon_style(icons::fontawesome("firefox-browser"), scale = 2)` Fox ecology: spring birth pulse, death
-
---
-
-### `r icons::icon_style(icons::fontawesome("viruses"), scale = 2)` Disease Ecology: infection, migration between regions
-
---
-
-### `r icons::icon_style(icons::fontawesome("shield-virus"), scale = 2)` Vaccination: vaccination events (where and when)
-
-.footnote[
-[**Baker L**, Matthiopoulos J, Müller T, Freuling C, Hampson K (2020) Local rabies transmission and regional spatial coupling in European foxes. **PLoS ONE** 15(5): e0220592. https://doi.org/10.1371/journal.pone.0220592](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0220592)]
-
-
----
-# The data and model
+# 1: The Data
 
 .left-column[
 
@@ -557,71 +513,88 @@ knitr::include_graphics("images/vaccinationrate.gif")
 
 .right-column[
 
-#### - Monthly fox rabies cases from 5 federal states in Eastern Germany from 1982-2013
-#### - GIS shapefiles of where oral rabies vaccines were dropped. 
-#### - Discrete time stochastic metapopulation model with three states: Susceptible (S), Infected (I), and Vaccinated (V)
-#### - Using a Bayesian state-space modelling approach which able to include prior information for several model parameters and incorporate imperfect detection of rabies cases.
+### - Monthly fox rabies cases from 5 federal states in Eastern Germany from 1982-2013
+### - GIS shapefiles of where oral rabies vaccines were dropped. 
 
 ]
 
 ???
+---
+# The model
+
+### Discrete time stochastic metapopulation model with three states: Susceptible (S), Infected (I), and Vaccinated (V) 
+
+--
+
+### `r icons::icon_style(icons::fontawesome("firefox-browser"), scale = 2)` Susceptible: spring birth pulse, death
+
+--
+
+### `r icons::icon_style(icons::fontawesome("viruses"), scale = 2)` Infected: infection, migration between regions
+
+--
+
+### `r icons::icon_style(icons::fontawesome("shield-virus"), scale = 2)` Vaccinated: vaccination events (where and when)
+
+--
+
+### Fit using a Bayesian state-space modelling approach
 
 ---
 # Susceptible Individuals
 
-Susceptible individuals $S$ in region $r$, in month $t$ were modeled as a function of juvenile foxes entering the population $j_{r,t}$, surviving individuals $C_{r,t}$ and those removed due to vaccination $V_{r,t}$ or infection $I_{r,t}$:
-
 \begin{eqnarray}
+\LARGE
 S_{r,t+1} = j_{r,t} + C_{r,t} - V_{r,t} - I_{r,t}
 \end{eqnarray}
+]
+
+### $S$ Susceptible individuals
+### $r$ Region and $t$ month
+### $j$ Juvenile foxes and $C$ Surviving susceptibles
+### $V$ Vaccinated individuals
+### $I$ Infected individuals
 
 ---
 # Infected individuals
 
-Infected individuals are modeled as:
-
 \begin{eqnarray}
+\LARGE
 I_{r,t} = (1-\rho_{r})I^{*}_{r,t} + \sum_{i \not= r} \rho_{i}l_{i,r}I^{*}_{i,t}
 \end{eqnarray}
 
-where $I^{*}_{r,t}$ is the number of infected individuals in region $r$ prior to any movement. Infected individuals leave the region with probability $\rho_{r}$. The summation term represents incursions from other regions as a function of rabies incidence $I^{*}_{i,t}$ in region $i$, the proportion of infected animals leaving region $i$: $\rho_{i}$, and $l_{i,r}$ the proportion of those moving to region $r$. 
+### $I^{*}$ infected individuals prior to any movement. 
+### $\rho$ probability of an infected individual leaving the region. 
+### $l_{i,r}$ proportion of individuals from region $i$ moving to region $r$. 
 
 ---
 # Vaccinated Individuals
 
-Vaccinated individuals were modeled as:
 \begin{eqnarray}
+\LARGE
 V_{r,t+1} = v_{r,t} + X_{r,t}
 \label{eq_vac}
 \end{eqnarray}
 
-where $v_{r,t}$ represents the newly vaccinated individuals drawn from a binomial distribution. $X_{r,t}$ represent surviving vaccinated individuals.
+### $X_{r,t}$ surviving vaccinated individuals.
+### $v_{r,t}$ newly vaccinated individuals drawn from a binomial distribution. 
 
 \begin{eqnarray}
-v_{r,t} \sim B(\nu\frac{S_{r,t}}{S_{r,t}+V_{r,t}}, S_{r,t})
+v_{r,t} \sim Bin(\nu\frac{S_{r,t}}{S_{r,t}+V_{r,t}}, S_{r,t})
 \end{eqnarray}
 
-and $\nu$ is the rate of bait uptake by the population of susceptible and vaccinated individuals in region $r$ at time $t$. The bait uptake rate $\nu$ was given a fixed Beta prior with mean 0.30 and variance of 0.005 based on field studies. 
+### $\nu$ rate of bait uptake by the population of susceptible and vaccinated individuals.
 
 ---
 # Observation Process
 
-We assumed that infected individuals $I_{r,t}$ were observed imperfectly each year with probability $\theta_y$:
+### $I_{r,t}$ were observed imperfectly each year with probability $\theta_y$:
 
 \begin{eqnarray}
+\LARGE
 \widehat{I}_{r,t} \sim Bin(\theta_y, I_{r,t})
 \end{eqnarray}
 
-
-where the observational noise $\theta_y$ varies stochastically on an annual basis. 
-
-In the cross-sectional sampling regime, hunted foxes $H_{r,t}$ had a probability of being observed to be infected equal to the risk of transmission $p_{r,t}$.
-
-\begin{eqnarray}
-\widehat{H}pos_{r,t} \sim B(p_{r,t}, H_{r,t})
-\end{eqnarray}
-
-where $\widehat{H}pos_{r,t}$ is the number of positive cases out of the total foxes hunted $H_{r,t}$.
 ---
 ## 2. Explore vaccination planning for different rabies scenarios
 
@@ -768,16 +741,6 @@ knitr::include_graphics("images/endemic_rabies.jpg")
 
 
 ]
-
----
-# Endemic: Time to elimination
-
-
-```{r, echo=FALSE, out.width=880, fig.align='center', fig.alt="Endemic (incidence ratio)."}
-
-knitr::include_graphics("images/incidence_ratio.jpg")
-
-```
 
 ---
 # High-risk
@@ -1118,3 +1081,45 @@ class: inverse, center, middle
 ### Spatial Data Analysis
 
 ### Mapping Ocean Stories
+
+---
+# Endemic: Time to elimination
+
+
+```{r, echo=FALSE, out.width=880, fig.align='center', fig.alt="Endemic (incidence ratio)."}
+
+knitr::include_graphics("images/incidence_ratio.jpg")
+
+```
+
+---
+# Vaccine Deployment
+
+.left-column[
+
+```{r, echo=FALSE, out.width=400, fig.align='center', fig.cap="Fixed wing aircraft used to distribute vaccines."}
+
+knitr::include_graphics("images/fixed_wing_hungary.jpg")
+
+
+```
+
+`r icons::fontawesome("newspaper")` Read more in *The Atlantic* article by Ed Yong ["That Time Europe Air-dropped Vaccine-loaded Chicken Heads to Bait Rabid Foxes"](https://www.theatlantic.com/science/archive/2015/12/that-time-europe-air-dropped-vaccine-loaded-chicken-heads-to-bait-rabid-foxes/417951/) 
+
+.footnote[Images: Friedrich Loeffler Institut]
+]
+
+.right-column[
+
+```{r, echo=FALSE, out.width=520, fig.align='center', fig.cap="Vaccine-loaded chicken heads."}
+
+knitr::include_graphics("images/chicken_head.jpg")
+
+
+```
+
+]
+
+`r icons::fontawesome("syringe")` At least they didn't go with the spring-loaded needle traps!
+
+
