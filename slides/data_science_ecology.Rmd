@@ -126,7 +126,7 @@ class: middle, left, inverse
 ---
 # Outline
 
-### 1. Introduce you to some of the problems I find interesting.
+### 1. Introduce you to some questions and projects I am interested in.
 
 --
 ### 2. Explore the intersection of epidemiology and statistics in a case study: Fox rabies elimination in Western Europe
@@ -987,27 +987,6 @@ class: inverse, center, middle
 
 ---
 class: center
-# My courses center 
-
-`r icons::icon_style(icons::fontawesome("lightbulb", style = "solid"), scale = 2)`
-### Ethics of inquiry
-
---
-
-`r icons::icon_style(icons::fontawesome("globe"), scale = 2)`
-### Actionable positive change
-
---
-
-`r icons::icon_style(icons::fontawesome("users"), scale = 2)`
-### Accessible and inclusive design
-
-
-???
-With the freedom to work on and choose project and questions that are meaningful to you.
-
----
-class: center
 # Curriculum objectives
 
 `r icons::icon_style(icons::fontawesome("tools", style = "solid"), scale = 2)` 
@@ -1122,4 +1101,7 @@ knitr::include_graphics("images/chicken_head.jpg")
 
 `r icons::fontawesome("syringe")` At least they didn't go with the spring-loaded needle traps!
 
+---
+# Creative projects
 
+<iframe src="https://laurielbaker.github.io/coded-mittens/selbu_mitten_generator.html" width="1016" height="516" frameBorder="0"></iframe>
