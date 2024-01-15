@@ -580,6 +580,7 @@ V_{r,t+1} = v_{r,t} + X_{r,t}
 ### $v_{r,t}$ newly vaccinated individuals drawn from a binomial distribution. 
 
 \begin{eqnarray}
+\LARGE
 v_{r,t} \sim Bin(\nu\frac{S_{r,t}}{S_{r,t}+V_{r,t}}, S_{r,t})
 \end{eqnarray}
 
@@ -909,8 +910,8 @@ Dr. Thomas Müller; Dr. Conrad Freuling; Patrick Wysocki
 
 Dr. Andy South (LSTM); Dr. Ahmadou Dicko (FAO, Senegal); Shelmith Kariuki (Nairobi, Kenya); Anelda Van der Walt (Talarify)
 
-**FCDO & ONS, UK**:  
-Dr. Joseph Crispell; Nathan Begbie; Saliha Minhas; Jonathon Mellor; Richard Leyshon
+**College of the Atlantic and Rhumbline Maps**:  
+Natalie Springuel; Hillary Smith; Todd Little-Siebold; Galen Koch; Ben Meader
 
 ]
 
@@ -1076,14 +1077,9 @@ knitr::include_graphics("images/incidence_ratio.jpg")
 
 .left-column[
 
-```{r, echo=FALSE, out.width=400, fig.align='center', fig.cap="Fixed wing aircraft used to distribute vaccines."}
-
-knitr::include_graphics("images/fixed_wing_hungary.jpg")
-
-
-```
-
 `r icons::fontawesome("newspaper")` Read more in *The Atlantic* article by Ed Yong ["That Time Europe Air-dropped Vaccine-loaded Chicken Heads to Bait Rabid Foxes"](https://www.theatlantic.com/science/archive/2015/12/that-time-europe-air-dropped-vaccine-loaded-chicken-heads-to-bait-rabid-foxes/417951/) 
+
+
 
 .footnote[Images: Friedrich Loeffler Institut]
 ]
