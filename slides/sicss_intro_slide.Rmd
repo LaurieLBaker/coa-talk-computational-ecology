@@ -134,6 +134,6 @@ class: middle, left
 ]
 ]
 
-### `r icons::fontawesome("lightbulb")` Exploring use of generative AI to identify spatial locations and expand qualitative coding of oral history interviews.
+### `r icons::fontawesome("lightbulb")` Exploring use of LLMs to identify context-specific locations and expand qualitative coding of oral history interviews.
 
 ???
